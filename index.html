@@ -20,7 +20,7 @@
                             <img src="logo.png" height="50px">
                             <h3 class="display-6 ml-3 text-white">NRSICE</h3>
                         </div>
-                        <div class="col-md-6 d-flex justify-content-center align-items-center" style="flex:1;font-size:25">
+                        <div class="col-md-6  navinme d-flex justify-content-center align-items-center" style="flex:1;font-size:25">
                             <a href="index.html" class="m-2">Accueil</a>
                             <a href="realisations.html" class="m-2">Réalisations</a>
                             <a href="devis.html" class="m-2">Devis</a>
@@ -41,13 +41,13 @@
                     <div class="col-md-4 p-5">
                         <div class="optainer">
                             <img class="full" src="https://www.paris-prix.com/67208-large_paris/ensemble-meuble-tv-bibliotheque-thin-340cm-noir-naturel.jpg">
-                            <p>Superbe meuble de salon</p>
+                            <p>Meuble TV bois marbais</p>
                         </div>
                     </div>
                     <div class="col-md-8 p-5">
                         <div class="optainer">
                             <img class="full" src="https://www.boisetchiffons.fr/1944-large_default/stainless-iii-meuble-haut-structure-inox.jpg">
-                            <p>Meuble TV</p>
+                            <p>Meuble bar</p>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@
                     <div class="col-md-8 p-5 ">
 
                         <div class="optainer">
-                            <img class="full" src="https://www.boisetchiffons.fr/1944-large_default/stainless-iii-meuble-haut-structure-inox.jpg">
-                            <p>Exactement le même Meuble Tv</p>
+                            <img class="full" src="https://image.jimcdn.com/app/cms/image/transf/dimension=312x10000:format=jpg/path/s29dd18101807cad6/image/i576522863de77560/version/1555574144/meuble-tv-ch%C3%AAne-massif-placage-courbe-ebeniste-menuisier-morbihan-vannes-elven.jpg">
+                            <p>Meuble SALON XXL</p>
                         </div>
 
                     </div>
@@ -73,7 +73,7 @@
     </div>
 
 <div class="magic">
-    <button class="btn-magic">Faire un devis</button>
+    <a class="btn-magic" href="devis.html">Faire un devis</a>
 </div>
 
     <div class="py-5 ">
@@ -81,8 +81,8 @@
             <div class="row">
                 <div class="col-md-8">
                     <h1 class="">Qui sommes nous ?</h1>
-                    <p class="lead">Lead paragraph. A wonderful serenity has taken possession of my entire soul.</p>
-                    <a class="btn btn-primary">Nos réalisations</a>
+                    <p class="lead">Nous sommes une équipe d'Artisan Menuisier résidant à Créteil.<br>Nous réalisons des meubles sur mesure et tout autre demande.</p>
+                    <a href="realisations.html" class="btn btn-primary">Nos réalisations</a>
                 </div>
                 <div class="col-md-4"><img class="img-fluid d-block" src="https://www.entreprise-du-batiment-volta.fr/images/blog/artisan-menuisier.jpg"></div>
             </div>
@@ -94,10 +94,10 @@
             <div class="row">
                 <div class="col-md-4"><img class="img-fluid d-block" src="https://www.entreprise-du-batiment-volta.fr/images/blog/artisan-menuisier.jpg"></div>
                 <div class="col-md-8">
-                    <h1 class="">Qui sommes nous ?</h1>
-                    <p class="lead">Lead paragraph. A wonderful serenity has taken possession of my entire soul.</p>
+                    <h1 class="">Une idée, un projet ?</h1>
+                    <p class="lead">Faite designer votre idée par l'un de nos menuisiers et obtenez une devis gratuitement.<br></p>
                     <div class="d-flex justify-content-end">
-                        <a class="btn btn-primary">Nous contacter</a>
+                        <a class="btn btn-primary" href="contact.html">Nous contacter</a>
                     </div>
 
                 </div>
@@ -122,16 +122,27 @@
         text-align: center;
         margin:2rem;
     }
+	.navinme a{
+		color:white;
+		text-decoration:none;
+		border-bottom:2px solid transparent;
+		transition:.5s border;
+	}
+	.navinme a:hover{
+		color:white;
+		text-decoration:none;
+		border-bottom:2px solid blue;
+	}
     .btn-magic{
  
-
+		text-decoration:none;
         margin-left:auto;
         margin-right:auto;
         border:0;
         padding:1rem 4rem;
         background: rgb(200,77,77);
 background: linear-gradient(90deg, rgba(200,77,77,1) 0%, rgba(190,49,49,1) 35%, rgba(255,0,0,1) 100%);
-        color:white;   
+        color:white !important;   
         border-radius: 5px;
     }
     body {
