@@ -11,33 +11,30 @@
 </head>
 
 <body>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
            
             <a class="navbar-brand" href="index.html"><img src="logo.png" height="50px"> NRSICE</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <form class="d-flex">
+                    <a class="nav-link text-light active" href="index.html">Accueil</a>
+                    <a class="nav-link text-light" href="realisations.html">Réalisations</a>
+                    <a class="nav-link text-light" href="devis.html">Devis</a>
+                    <a class="nav-link text-light" href="contact.html">Contact</a>
+                </form>
+            </div>
 			
-			<div>
-			  <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			  </button>
-			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav">
-				  <a class="nav-item nav-link active" href="index.html">Accueil</a>
-				  <a class="nav-item nav-link" href="realisations.html">Réalisations</a>
-				  <a class="nav-item nav-link" href="devis.html">Devis</a>
-				  <a class="nav-item nav-link" href="contact.html" tabindex="-1" aria-disabled="true">Contact</a>
-				</div>
-				
-			  </div>
-			
-			 </div>
-			
-			  
-       
+			 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 		  
         </div>
 
     </nav>
+
 
     <div class="p-5 w-100">
         <h1 class="mb-4 text-center py-2">NOS RÉALISATIONS</h1>
@@ -146,6 +143,7 @@
     
     .gallery img {
         object-fit: cover;
+		max-height:300px;
     }
 </style>
 
